@@ -5,7 +5,7 @@ const menu = require("../menu");
 
 // INDEX
 router.get("/", (req, res) => {
-  res.send("Lista dei post");
+  res.json(menu);
 });
 // SHOW
 router.get("/:id", (req, res) => {
