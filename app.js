@@ -19,5 +19,5 @@ app.listen(PORT, () => {
 
 // fallback
 app.all("*", (req, res) => {
-  res.status(404).send("<h1>NOT FOUND</h1>");
+  res.status(404).send("<h1>404-NOT FOUND</h1>");
 });
